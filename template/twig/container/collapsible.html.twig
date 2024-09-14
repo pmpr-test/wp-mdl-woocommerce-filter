@@ -1,0 +1,20 @@
+{% set collapsed = collapse_items and selected is defined and selected is empty %}
+{% if rednder|default(1) %}
+    <div class="card mb-3">
+        <h2 class="h6 mb-0 card-header px-3 py-2">
+            <a class="shadow-none d-flex justify-content-between text-decoration-none my-auto{% if collapsed %} collapsed{% endif %}"
+               data-toggle="collapse"
+               href="#filter-{{ id }}" aria-expanded="true"
+               aria-controls="filter-{{ id }}" id="heading-{{ id }}">
+                <span>{{ title|raw }}</span>
+                {{ render_icon(arrow_down_icon, {class: 'icon-xs rotate-90deg icon-primary'}, 1) }}
+            </a>
+        </h2>
+        <div id="filter-{{ id|esc_attr }}" data-filter="{{ id|esc_attr }}"
+             class="collapse{% if not collapsed %} show{% endif %}" aria-labelledby="heading-{{ id }}">
+            <div class="card-body {{ card_body_class|default('px-3 py-2') }}">
+                {% block body %}{% endblock body %}
+            </div>
+        </div>
+    </div>
+{% endif %}

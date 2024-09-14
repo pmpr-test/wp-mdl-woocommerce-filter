@@ -1,0 +1,7 @@
+<a class="badge badge-secondary remove-filter{% if not last %} ml-2{% endif %}"
+   href="#" data-name="{{ item.name|esc_attr }}"
+   data-value="{{ item.value|esc_attr }}"
+   data-filter="{{ item.filter|esc_attr }}">
+    {{ render_icon(remove_icon, {class: 'icon-xxs icon-white mr-1'}, 1) }}
+    <span>{{ item.title|raw }}</span>
+</a>

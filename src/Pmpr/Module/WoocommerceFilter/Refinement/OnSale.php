@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e7d895647             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\WoocommerceFilter\Refinement; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use WP_Query; class OnSale extends Element { const isasoemkymwoiqem = "\157\156\x5f\x73\x61\x6c\x65"; public function __construct() { $this->name = self::isasoemkymwoiqem; $this->type = Constants::semqugiuwygamias; $this->icon = IconInterface::uaimoioocayauuca; $this->title = __("\117\156\x20\123\x61\x6c\x65", PR__MDL__WOOCOMMERCE_FILTER); parent::__construct(); } public function msgqcwqsemkmwqss($oyiyuuoguwwaksaa, &$gqgemcmoicmgaqie) { $ccouywuicsaqmais = (bool) $this->kokwyquiqyoaaioc()->oiqmuywqkkmuswuc($this->aakmagwggmkoiiyu(), false); if (!$ccouywuicsaqmais) { goto iwekmyyccgiyuecc; } $eqgoocgaqwqcimie = array_merge([0], $this->uwkmaywceaaaigwo()->aqasygcsqysmmyke()->gucosgmwouaweasy()); if ($gqgemcmoicmgaqie instanceof WP_Query) { goto ousiuuwgwkiyikyq; } if (!is_array($gqgemcmoicmgaqie)) { goto kqqiegkuqagcqsya; } $gqgemcmoicmgaqie[Constants::eqomgewoayseioos] = $eqgoocgaqwqcimie; kqqiegkuqagcqsya: goto ogsaaqsaogcqiouy; ousiuuwgwkiyikyq: $gqgemcmoicmgaqie->set(Constants::eqomgewoayseioos, $eqgoocgaqwqcimie); ogsaaqsaogcqiouy: iwekmyyccgiyuecc: return parent::msgqcwqsemkmwqss($oyiyuuoguwwaksaa, $gqgemcmoicmgaqie); } }

@@ -1,0 +1,20 @@
+{% if items is defined
+    and items is not empty %}
+    <form id="filter-form" class="position-relative my-5" action="{{ action|esc_attr }}" method="get">
+        {{ render_frontend_spinner() }}
+        <input type="hidden" name="{{ filter_name|raw }}" value="1">
+        {% for filter in items %}
+            {{ filter|call('render') }}
+        {% endfor %}
+
+        {% if has_active_filter is defined
+            and has_active_filter %}
+            <button id="filter-reset" type="button"
+                    class="btn btn-outline-primary btn-block">{{ reset_button_title|raw }}</button>
+        {% endif %}
+
+        {% if not auto_submit %}
+            <button id="filter-submit" class="btn btn-primary btn-block">{{ submit_button_title|raw }}</button>
+        {% endif %}
+    </form>
+{% endif %}

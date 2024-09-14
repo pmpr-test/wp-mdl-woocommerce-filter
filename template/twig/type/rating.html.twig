@@ -1,0 +1,10 @@
+<p class="rating-inputs">
+    {% for index in 5..1 %}
+        <input id="{{ name ~ index|esc_attr }}" name="{{ name|esc_attr }}" type="radio" value="{{ index }}">
+        <label for="{{ name ~ index|esc_attr }}" class="rating-label" data-value="{{ index|esc_attr }}"></label>
+    {% endfor %}
+    {% if recaptcha_enable %}
+
+    {% endif %}
+</p>
+

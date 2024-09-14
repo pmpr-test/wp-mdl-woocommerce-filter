@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Woocommerce Filter\n"
+"POT-Creation-Date: 2023-04-26 19:34+0330\n"
+"PO-Revision-Date: 2023-04-26 19:37+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/WoocommerceFilter/Frontend/Common.php:25
+msgid "Reset Filters"
+msgstr "بازنشانی فیلترها"
+
+#: src/Pmpr/Module/WoocommerceFilter/Frontend/Common.php:26
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:31
+msgid "Filter"
+msgstr "فیلتر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Model/Cache.php:17
+msgid "Cache"
+msgstr "کش"
+
+#: src/Pmpr/Module/WoocommerceFilter/Model/Cache.php:18
+msgid "Caches"
+msgstr "کش‌ها"
+
+#: src/Pmpr/Module/WoocommerceFilter/Model/Cache.php:27
+msgid "Value"
+msgstr "مقدار"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:184
+msgid "Radio"
+msgstr "رادیو"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:185
+msgid "Dropdown"
+msgstr "کشویی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:186
+msgid "Multi Dropdown"
+msgstr "چند کرکره‌ای"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:187
+msgid "Multi Checkbox"
+msgstr "چک باکس چندتایی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:204
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Featured.php:72
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/InStock.php:171
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/OnSale.php:59
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Rating.php:69
+msgid "Enable"
+msgstr "فعال"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:205
+#, php-format
+msgid "Enable %s filter."
+msgstr "فعال کردن فیلتر %s."
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:209
+msgid "Taxonomy custom label"
+msgstr "عنوان سفارشی تکسنومی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:210
+#, php-format
+msgid ""
+"For example you want to show title of %s as \"My Products\". Just for your "
+"convenience."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:214
+msgid "Filter Type"
+msgstr "نوع فیلتر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:215
+#, php-format
+msgid "View of the %s terms on the front."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:219
+msgid "Hide Unused"
+msgstr "پنهان‌کردن بی‌استفاده‌ها"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:220
+msgid "Check this item for better performance."
+msgstr "برای بازدهی بهتر این مورد را فعال کنید."
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:224
+msgid "Sort terms"
+msgstr "مرتب‌سازی ترم‌ها"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:226
+msgid "Default"
+msgstr "پیشفرض"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:227
+msgid "ID"
+msgstr "شناسه"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:228
+msgid "Name"
+msgstr "نام"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:229
+msgid "Numeric"
+msgstr "عددی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:231
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:240
+msgid "How to sort terms inside of filter block"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:235
+msgid "Sort order"
+msgstr "ترتیب مرتب‌کردن"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:237
+msgid "ASC"
+msgstr "صعودی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Attribute.php:238
+msgid "DESC"
+msgstr "نزولی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:178
+msgid "See All Items"
+msgstr "مشاهده همه"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:179
+msgid "Close"
+msgstr "بستن"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:221
+#, php-format
+msgid "%s Configuration"
+msgstr "پیکربندی %s"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:225
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:42
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:47
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:228
+msgid "Use in Filter"
+msgstr "استفاده در فیلتر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:229
+msgid "Check this option, if you want show this item in filter."
+msgstr ""
+"اگر میخواهید این فیلتر در فیلتر‌ها نمایش داده شود، این گزینه را علامت بزنید."
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:233
+msgid "Display Title"
+msgstr "عنوان نمایشی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:234
+msgid "This title used in filter form."
+msgstr "این عنوان در فرم فیلتر استفاده می‌شود."
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Element.php:240
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Featured.php:73
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/OnSale.php:60
+msgid "Show On sale only checkbox inside filter search form."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/InStock.php:172
+msgid "Show In stock only checkbox inside Filter search form."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/InStock.php:176
+msgid "Search in variable products"
+msgstr "جستجو در محصولات متغییر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/InStock.php:178
+msgid "Simple products only"
+msgstr "فقط محصولات ساه"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/InStock.php:179
+msgid "Search in products and their variations"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Price.php:25
+msgid "By Price"
+msgstr "بر اساس قیمت"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Price.php:46
+msgid "From"
+msgstr "از"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Price.php:51
+msgid "To"
+msgstr "تا"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Price.php:68
+msgid "Filter Price"
+msgstr "فیلتر قیمت"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Price.php:183
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: src/Pmpr/Module/WoocommerceFilter/Refinement/Price.php:184
+msgid ""
+"Text before the price filter range slider. Leave it empty if you not need "
+"it!."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:32
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:27
+msgid "Woocommerce Filter"
+msgstr "فیلتر ووکامرس"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:43
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:50
+msgid "Enable Filter"
+msgstr "فعال کردن فیلتر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:54
+msgid "Auto Submit"
+msgstr "فیلتر خودکار"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:55
+msgid ""
+"Start searching just after changing any of the elements on the search "
+"form(Just for checkbox and radio)."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:59
+msgid "More items button"
+msgstr "دکمه آیتم‌های بیشتر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:60
+msgid "Show a button for full show a big list items."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:64
+msgid "Collapse Items"
+msgstr "جمع کردن آیتم‌ها"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:65
+msgid "All Items collapsed in first view."
+msgstr "جمع‌ شدن همه آیتم‌ها در نمایش اولیه."
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:69
+msgid "Filter button text"
+msgstr "متن دکمه فیلتر"
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:70
+msgid "Filter button text in the search form."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:74
+msgid "Reset filter button text"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:75
+msgid "Reset filter button text in the search form."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:79
+msgid "Hide children in checkboxes and radio"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:80
+msgid ""
+"Hide children in checkboxes and radio. Near checkbox/radio which has "
+"children will be plus icon to show children."
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:84
+msgid "Lets checked terms will be on the top"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/Setting.php:85
+msgid ""
+"Selected terms will always be displayed on the top (for parent-terms only, "
+"child will be on the top but under parent-term as it was)"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:84
+msgid "Product Details"
+msgstr "جزئیات محصول"
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:87
+msgid "Pull Replacement"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:88
+msgid "Replacement from parent"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:92
+msgid "Exclude Filters"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:97
+msgid "Push Replacement"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:98
+msgid "Replacement into children"
+msgstr ""
+
+#: src/Pmpr/Module/WoocommerceFilter/WoocommerceFilter.php:143
+#, php-format
+msgid "each %s days"
+msgstr "هر %s روز"
+
+#~ msgid "By Featured"
+#~ msgstr "ویژه شده‌ها"
+
+#~ msgid "In Stock"
+#~ msgstr "موجود در انبار"
+
+#~ msgid "On Sale"
+#~ msgstr "حراج"
+
+#~ msgid "Filter items by price."
+#~ msgstr "فیلتر کردن آیتم بر اساس قیمت."
+
+#~ msgid "Title text"
+#~ msgstr "متن عنوان"
+
+#~ msgid "By Rating"
+#~ msgstr "بر اساس امتیاز"
+
+#~ msgid "Filter products by rating"
+#~ msgstr "فیلتر محصولات بر اساس رتبه بندی"
+
+#~ msgid "Refinements"
+#~ msgstr "فیلتر‌ها"
+
+#~ msgid "Structure"
+#~ msgstr "ساختار"
+

@@ -1,0 +1,7 @@
+<div class="switch">
+    <input type="checkbox"{% if value is defined and value %} value="on"{% endif %}
+            {% if slug is defined and slug is not empty %} data-slug="{{ slug|esc_attr }}"{% endif %}
+           class="w-100" name="{{ name|esc_attr }}" id="{{ id|esc_attr }}" {{ checked('on', value)|raw }}>
+    <label for="{{ id|esc_attr }}">{{ title|esc_html }}</label>
+</div>
+

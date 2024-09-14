@@ -1,0 +1,27 @@
+{% if items is defined and items is not empty %}
+    <div class="m-3 price-slider"
+         data-min="{{ items[0].value|esc_attr }}"
+         data-max="{{ items[1].value|esc_attr }}"
+         data-values="{{ values|json_encode }}"
+         data-min-target="#{{ items[0].name|esc_attr }}, #hidden_{{ items[0].name|esc_attr }}"
+         data-max-target="#{{ items[1].name|esc_attr }}, #hidden_{{ items[1].name|esc_attr }}"></div>
+    <ul class="list-group list-group-horizontal border-top{% if has-button %} border-bottom{% endif %}">
+        {% for index, item in items %}
+            <li class="list-group-item border-0 p-3">
+                <label class="m-0 text-center" for="{{ item.name|esc_attr }}">
+                    <span class="h6">{{ item.label|esc_html|raw }}</span>
+                    <input class="h5 my-3 py-2 w-100 text-center bg-gray-100 border-0 preview" type="text"
+                           value="{{ values[index]|esc_attr }}" id="{{ item.name|esc_attr }}"
+                           name="_{{ item.name|esc_attr }}"
+                           disabled="disabled"/>
+                    <span class="h5 m-0">{{ item.currency|esc_html|raw }}</span>
+                </label>
+
+                <input type="hidden" class="slider-input"
+                       id="hidden_{{ item.name|esc_attr }}"
+                       value="{{ values[index]|esc_attr }}"
+                       name="{{ name|esc_attr }}[{{ item.name|esc_attr }}]"/>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
