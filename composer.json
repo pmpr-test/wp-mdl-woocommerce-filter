@@ -1,32 +1,9 @@
 {
-  "name": "pmpr-mdl/wp-mdl-woocommerce-filter",
-  "type": "project",
-  "license": "proprietary",
-  "description": "Woocommerce Filter",
-  "keywords": [
-    "filter",
-    "package",
-    "wordpress",
-    "woocommerce"
-  ],
-  "require": {
-    "php": ">=8.2",
-    "pmpr-cmn/wp-cmn-foundation": "~1.4"
-  },
   "prod-require": {
     "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest"
   },
-  "autoload": {
-    "psr-4": {
-      "Pmpr\\Module\\WoocommerceFilter\\": "src/Pmpr/Module/WoocommerceFilter"
-    },
-    "files": [
-      "index.php"
-    ]
-  },
-  "minimum-stability": "dev",
   "tag": "1.1.16",
-  "timestamp": "1728905308"
+  "timestamp": "1728923400"
 }
