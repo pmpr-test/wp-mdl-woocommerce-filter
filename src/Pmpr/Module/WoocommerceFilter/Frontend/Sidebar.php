@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             670517a26c5de             |
+    |             670d005bca905             |
     |_______________________________________|
 */
- namespace Pmpr\Module\WoocommerceFilter\Frontend; class Sidebar extends Common { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\167\157\157\x63\157\x6d\x6d\x65\162\143\145\x5f\x73\151\x64\145\142\141\x72", [$this, "\162\145\x6e\144\x65\x72"], 50); } public function render() { if (!($this->wwqoiqcoccacyyyc() && $this->caokeucsksukesyo()->aqasygcsqysmmyke()->omuogooguicuqewu())) { goto ukkcmocamwgiqayu; } $this->skqqcuwuuumqkykk(); ukkcmocamwgiqayu: } }
+ namespace Pmpr\Module\WoocommerceFilter\Frontend; class Sidebar extends Common { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\167\157\157\x63\157\155\x6d\145\x72\x63\145\137\163\x69\144\145\142\141\162", [$this, "\162\x65\156\144\145\162"], 50); } public function render() { if ($this->wwqoiqcoccacyyyc() && $this->caokeucsksukesyo()->aqasygcsqysmmyke()->omuogooguicuqewu()) { $this->skqqcuwuuumqkykk(); } } }
