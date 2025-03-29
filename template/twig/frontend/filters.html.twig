@@ -1,6 +1,6 @@
 {% if items is defined
     and items is not empty %}
-    <form id="filter-form" class="position-relative my-5" action="{{ action|esc_attr }}" method="get">
+    <form id="pr_woo_filter" class="position-relative my-5" action="{{ action|esc_attr }}" method="get">
         {{ render_frontend_spinner() }}
         <input type="hidden" name="{{ filter_name|raw }}" value="1">
         {% for filter in items %}

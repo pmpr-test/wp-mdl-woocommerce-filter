@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             677fc5d87a549             |
+    |             67e853bbb26d3             |
     |_______________________________________|
 */
- namespace Pmpr\Module\WoocommerceFilter\Frontend; class Frontend extends Common { public function mameiwsayuyquoeq() { Sidebar::symcgieuakksimmu(); } }
+ namespace Pmpr\Module\WoocommerceFilter\Frontend; use Pmpr\Module\WoocommerceFilter\WoocommerceFilter; class Frontend extends Common { public function mameiwsayuyquoeq() { Sidebar::symcgieuakksimmu(); if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq(WoocommerceFilter::geiygweugseyomyy)) { Ajax::symcgieuakksimmu(); } } }
