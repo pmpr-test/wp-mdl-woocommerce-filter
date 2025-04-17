@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbe7aff11             |
+    |             6801069f1e15a             |
     |_______________________________________|
 */
  namespace Pmpr\Module\WoocommerceFilter\Refinement; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use WP_Query; class Featured extends Element { const quumiuygmqeaackw = 'featured'; public function __construct() { $this->name = self::quumiuygmqeaackw; $this->icon = IconInterface::guigcisacouwgiqi; $this->type = Constants::semqugiuwygamias; $this->title = __('Featured', PR__MDL__WOOCOMMERCE_FILTER); parent::__construct(); } public function msgqcwqsemkmwqss($oyiyuuoguwwaksaa, &$gqgemcmoicmgaqie) { if ($gqgemcmoicmgaqie instanceof WP_Query) { $useksmwkuswkwcqg = $gqgemcmoicmgaqie->get(Constants::uouymeyqasaeckso); if ($useksmwkuswkwcqg === Constants::oguseymmyyoyaako) { $esygomwiykacwkye = $gqgemcmoicmgaqie->tax_query; if ($esygomwiykacwkye && isset($esygomwiykacwkye->queries)) { $esygomwiykacwkye = $esygomwiykacwkye->queries; $qwyoumwkqwymwyyk = (bool) $this->kokwyquiqyoaaioc()->oiqmuywqkkmuswuc($this->aakmagwggmkoiiyu(), false); if ($qwyoumwkqwymwyyk) { $esygomwiykacwkye[] = [Constants::gmmygyiecgmggaam => 'product_visibility', Constants::gueokgaoyascgeqe => Constants::NAME, Constants::ucoiewcoucauqwko => self::quumiuygmqeaackw]; $gqgemcmoicmgaqie->set(Constants::kymceekcoyyeuocm, $esygomwiykacwkye); } } } } return parent::msgqcwqsemkmwqss($oyiyuuoguwwaksaa, $gqgemcmoicmgaqie); } }
